@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test API</title>
+</head>
+<body>
+    <h1>Test Resume Similarity API</h1>
+    <form action="https://0bf1-103-189-68-121.ngrok-free.app" method="POST" enctype="multipart/form-data">
+        <label for="resume">Upload Resume (PDF):</label><br>
+        <input type="file" id="resume" name="resume" accept=".pdf"><br><br>
+        
+        <label for="job_description">Job Description:</label><br>
+        <textarea id="job_description" name="job_description" rows="4" cols="50">Looking for a Data Engineer</textarea><br><br>
+        
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
